@@ -11,6 +11,19 @@ Built using:
 
 ---
 
+## 📁 Folder Structure
+
+shopping-cart-fullstack/
+├── shopping-cart-frontend/ # React application
+├── shopping-cart-backend/ # Golang backend APIs
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
 ## 🚀 Features
 
 - ✅ User Registration & Login
@@ -32,23 +45,38 @@ Built using:
    ```bash
    cd shopping-cart-frontend
 Install dependencies:
+
+bash
+Copy
+Edit
 npm install
-
 Run the development server:
-npm start
 
+bash
+Copy
+Edit
+npm start
 Runs at: http://localhost:3000
 
 🛠 Backend Setup (Go + Gin)
 Navigate to backend folder:
+
+bash
+Copy
+Edit
 cd shopping-cart-backend
-
 Download dependencies:
+
+bash
+Copy
+Edit
 go mod tidy
-
 Run the backend server:
-go run main.go
 
+bash
+Copy
+Edit
+go run main.go
 Runs at: http://localhost:8081
 
 Make sure PostgreSQL or SQLite is set up as per your configuration (default: SQLite file-based).
