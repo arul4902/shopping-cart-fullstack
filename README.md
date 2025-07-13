@@ -88,11 +88,11 @@ npm start           # Start frontend server at http://localhost:3000
 
 ### 📝 Register
 
-![Register](register.jpg)
+![Register](Register.jpg)
 
 ### 💼 Items Catalog
 
-![Items](items.jpg)
+![Items](Items_page.jpg)
 
 ### ➕ Add to Cart
 
@@ -100,7 +100,7 @@ npm start           # Start frontend server at http://localhost:3000
 
 ### 🩺 View Cart
 
-![ViewCart](view_cart.jpg)
+![ViewCart](view%20cart.jpg)
 
 ### ✅ Checkout & 📦 Orders
 
