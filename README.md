@@ -43,7 +43,6 @@ shopping-cart-fullstack/
 
 ### ✅ 1. Clone Repository
 
-```bash
 git clone https://github.com/arul4902/shopping-cart-fullstack.git
 cd shopping-cart-fullstack
 
