@@ -1,91 +1,96 @@
-# 🛒 Shopping Cart – Full Stack Web Application
+# 🛍️ Shopping Cart Full Stack Application
 
-A complete and elegant shopping cart system developed as part of a full-stack internship evaluation project.
+This is a full-stack shopping cart web application built with:
 
-Built using:
-
-- ⚛️ **Frontend**: React.js with responsive styling and Toast notifications
-- 🧠 **Backend**: Golang (Gin Framework) + GORM + JWT Authentication
-- 🗃️ **Database**: PostgreSQL / SQLite
-- 🎨 **UI**: Animations, modern CSS, and user-friendly design
+- **Frontend**: React.js (with Toastify for UI notifications)
+- **Backend**: Go (Gin framework) + PostgreSQL (via GORM)
+- **Authentication**: JWT-based token authentication
+- **Functionality**: User Registration, Login, Item Listing, Add to Cart, Checkout, Order History
 
 ---
 
 ## 📁 Folder Structure
 
 shopping-cart-fullstack/
-├── shopping-cart-frontend/ # React application
-├── shopping-cart-backend/ # Golang backend APIs
-└── README.md
-
-yaml
-Copy
-Edit
+├── shopping-cart-frontend/ # React App
+└── shopping-cart-backend/ # Go REST API
 
 ---
 
 ## 🚀 Features
 
-- ✅ User Registration & Login
-- ✅ JWT-based Authentication
-- ✅ Add Items to Cart
-- ✅ View Cart (with Item name + Price)
-- ✅ Checkout Order
-- ✅ View Order History
-- ✅ Toast messages for every user interaction
-- ✅ Responsive & Animated UI (Login, Items, Landing page)
-- ✅ Separate folders for frontend and backend
-- ✅ Clean code structure and maintainability
+- 🔐 JWT-based user login/signup
+- 🛍 View product catalog
+- ➕ Add items to cart
+- ✅ Checkout cart
+- 📦 View past orders
+- 🎨 Responsive UI with Toast notifications
+- 💾 Token stored in `localStorage` for session persistence
 
 ---
 
-## 🌐 Frontend Setup (React)
+## 🔧 Technologies Used
 
-1. Navigate to frontend folder:
-   ```bash
-   cd shopping-cart-frontend
-Install dependencies:
+| Frontend        | Backend        | Database     |
+|----------------|----------------|--------------|
+| React.js        | Go (Gin)       | PostgreSQL   |
+| Axios           | GORM ORM       |              |
+| React Toastify  | JWT Auth       |              |
 
-bash
-Copy
-Edit
-npm install
-Run the development server:
+---
 
-bash
-Copy
-Edit
-npm start
-Runs at: http://localhost:3000
+## 🛠️ Setup Instructions
 
-🛠 Backend Setup (Go + Gin)
-Navigate to backend folder:
+### ✅ 1. Clone Repository
 
+```bash
+git clone https://github.com/YOUR_USERNAME/shopping-cart-fullstack.git
+cd shopping-cart-fullstack
+✅ 2. Backend Setup (Go)
 bash
 Copy
 Edit
 cd shopping-cart-backend
-Download dependencies:
 
-bash
-Copy
-Edit
+# Initialize Go modules (if not already)
 go mod tidy
-Run the backend server:
 
+# Run backend server
+go run main.go
+Ensure PostgreSQL is running and properly configured in your database.Connect() logic.
+
+✅ 3. Frontend Setup (React)
 bash
 Copy
 Edit
-go run main.go
-Runs at: http://localhost:8081
+cd shopping-cart-frontend
 
-Make sure PostgreSQL or SQLite is set up as per your configuration (default: SQLite file-based).
+# Install dependencies
+npm install
 
-🔐 Authentication Flow
-User registers or logs in
+# Start the frontend
+npm start
+This will run the React app on http://localhost:3000
 
-Receives a JWT token
+📸 Screenshots
+Landing Page	Items Page	Cart Toast
 
-Token is stored in local storage
+🧪 Testing Accounts
+You can register any new user and use it to log in. No seeded data required.
 
-All protected endpoints use Authorization: Bearer <token>
+📄 Evaluation Notes (for reviewers)
+All APIs are implemented per the PDF instructions
+
+Clean separation between frontend and backend
+
+Login + Registration tested via UI and Postman
+
+Cart, Orders, and Checkout features tested end-to-end
+
+Project ready for demonstration
+
+👨‍💻 Developed By
+Arul S
+B.Tech – 2026 Batch
+Internship Project – Full Stack Web Development
+
