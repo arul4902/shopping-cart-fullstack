@@ -69,30 +69,32 @@ npm start
 
 This will run the React app on http://localhost:3000
 
-📸 Screenshots
-Landing Page
-<img width="1910" height="851" alt="image" src="https://github.com/user-attachments/assets/770ee89c-8760-41e2-8256-f53bfa972506" />
+## 📸 Screenshots
 
-Login Page
-<img width="1917" height="848" alt="image" src="https://github.com/user-attachments/assets/8b374d0b-fa5e-4881-8573-cddbfea55916" />
+### Landing Page
+![Landing Page](https://github.com/user-attachments/assets/770ee89c-8760-41e2-8256-f53bfa972506)
 
-SignUp Page
-<img width="1918" height="848" alt="image" src="https://github.com/user-attachments/assets/b0d714a6-809a-4d4f-ab6d-8782e4336685" />
+### Login Page
+![Login Page](https://github.com/user-attachments/assets/8b374d0b-fa5e-4881-8573-cddbfea55916)
 
-Items Page
-<img width="1918" height="865" alt="image" src="https://github.com/user-attachments/assets/9c6d9165-4cc5-41aa-bae4-017ddd8b725e" />
+### SignUp Page
+![SignUp Page](https://github.com/user-attachments/assets/b0d714a6-809a-4d4f-ab6d-8782e4336685)
 
-Add to Cart
-<img width="1911" height="858" alt="image" src="https://github.com/user-attachments/assets/665fdbbb-c3e5-4339-9986-e7edcb94c5f8" />
+### Items Page
+![Items Page](https://github.com/user-attachments/assets/9c6d9165-4cc5-41aa-bae4-017ddd8b725e)
 
-View Cart
-<img width="1912" height="868" alt="image" src="https://github.com/user-attachments/assets/b292b6db-836a-472d-a7e6-00e669068014" />
+### Add to Cart
+![Add to Cart](https://github.com/user-attachments/assets/665fdbbb-c3e5-4339-9986-e7edcb94c5f8)
 
-Checkout
-<img width="1915" height="868" alt="image" src="https://github.com/user-attachments/assets/1bf0aa41-57ea-4798-8795-14d2c28d8f96" />
+### View Cart
+![View Cart](https://github.com/user-attachments/assets/b292b6db-836a-472d-a7e6-00e669068014)
 
-Order History
-<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/900aadec-392c-43d2-9ff6-dde51705f04e" />
+### Checkout
+![Checkout](https://github.com/user-attachments/assets/1bf0aa41-57ea-4798-8795-14d2c28d8f96)
+
+### Order History
+![Order History](https://github.com/user-attachments/assets/900aadec-392c-43d2-9ff6-dde51705f04e)
+
 
 🧪 Testing Accounts
 You can register any new user and use it to log in. No seeded data required.
