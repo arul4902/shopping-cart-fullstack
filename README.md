@@ -4,38 +4,29 @@ A complete and elegant shopping cart system developed as part of a full-stack in
 
 Built using:
 
-- **Frontend**: React.js with responsive styling and Toast notifications
-- **Backend**: Golang (Gin Framework) + GORM + JWT Authentication
-- **Database**: PostgreSQL / SQLite
-- **UI**: Animations, modern CSS, and user-friendly design
+- ⚛️ **Frontend**: React.js with responsive styling and Toast notifications
+- 🧠 **Backend**: Golang (Gin Framework) + GORM + JWT Authentication
+- 🗃️ **Database**: PostgreSQL / SQLite
+- 🎨 **UI**: Animations, modern CSS, and user-friendly design
 
 ---
 
-## Folder Structure
+## 🚀 Features
 
-shopping-cart-fullstack/
-├── shopping-cart-frontend/ # React application
-├── shopping-cart-backend/ # Golang backend APIs
-└── README.md
-
----
-
-## Features
-
--  User Registration & Login
--  JWT-based Authentication
--  Add Items to Cart
--  View Cart (with Item name + Price)
--  Checkout Order
--  View Order History
--  Toast messages for every user interaction
--  Responsive & Animated UI (Login, Items, Landing page)
--  Separate folders for frontend and backend
--  Clean code structure and maintainability
+- ✅ User Registration & Login
+- ✅ JWT-based Authentication
+- ✅ Add Items to Cart
+- ✅ View Cart (with Item name + Price)
+- ✅ Checkout Order
+- ✅ View Order History
+- ✅ Toast messages for every user interaction
+- ✅ Responsive & Animated UI (Login, Items, Landing page)
+- ✅ Separate folders for frontend and backend
+- ✅ Clean code structure and maintainability
 
 ---
 
-## Frontend Setup (React)
+## 🌐 Frontend Setup (React)
 
 1. Navigate to frontend folder:
    ```bash
@@ -48,8 +39,7 @@ npm start
 
 Runs at: http://localhost:3000
 
-Backend Setup (Go + Gin)
-
+🛠 Backend Setup (Go + Gin)
 Navigate to backend folder:
 cd shopping-cart-backend
 
