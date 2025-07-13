@@ -1,0 +1,14 @@
+# Node modules (React)
+/shopping-cart-frontend/node_modules
+/shopping-cart-frontend/build
+
+# Go binary files and vendor
+/shopping-cart-backend/vendor
+/shopping-cart-backend/*.exe
+/shopping-cart-backend/*.out
+
+# Log files
+*.log
+
+# Environment / secrets
+.env
