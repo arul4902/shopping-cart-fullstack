@@ -36,6 +36,7 @@ This is a full-stack shopping cart web application built with:
 ### ✅ 1. Clone Repository
 
 git clone https://github.com/arul4902/shopping-cart-fullstack.git
+
 cd shopping-cart-fullstack
 
 ### ✅ 2. Backend Setup (Go)
@@ -91,13 +92,12 @@ This will run the React app on http://localhost:3000
 
 
 
-🧪 Testing Accounts
+### 🧪 Testing Accounts
 You can register any new user and use it to log in. No seeded data required.
 
 
 
-👨‍💻 Developed By
+### 👨‍💻 Developed By
 Arul S
-B.Tech – 2026 Batch
-Internship Project – Full Stack Web Development
+
 
