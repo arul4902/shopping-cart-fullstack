@@ -80,35 +80,35 @@ npm start           # Start frontend server at http://localhost:3000
 
 ### 🏠 Landing Page
 
-![Landing](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/landing_page.jpg)
+![Landing](landing_page.jpg)
 
 ### 🔐 Login
 
-![Login](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/login.jpg)
+![Login](login.jpg)
 
 ### 📝 Register
 
-![Register](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/register.jpg)
+![Register](register.jpg)
 
 ### 💼 Items Catalog
 
-![Items](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/items.jpg)
+![Items](items.jpg)
 
 ### ➕ Add to Cart
 
-![AddToCart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/addToCart.jpg)
+![AddToCart](addToCart.jpg)
 
 ### 🩺 View Cart
 
-![ViewCart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/view_cart.jpg)
+![ViewCart](view_cart.jpg)
 
 ### ✅ Checkout & 📦 Orders
 
-![Orders](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/orders.jpg)
+![Orders](orders.jpg)
 
 ### 🔚 Logout
 
-![Logout](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/logout.jpg)
+![Logout](logout.jpg)
 
 ---
 
