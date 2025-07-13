@@ -72,28 +72,32 @@ This will run the React app on http://localhost:3000
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](./landing_page.jpg)
+![Landing Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/landing_page.jpg)
 
 ### Login Page
-![Login Page](https://github.com/user-attachments/assets/8b374d0b-fa5e-4881-8573-cddbfea55916)
+![Login Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/login.jpg)
 
-### SignUp Page
-![SignUp Page](https://github.com/user-attachments/assets/b0d714a6-809a-4d4f-ab6d-8782e4336685)
+### Register Page
+![Register Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/Register.jpg)
 
 ### Items Page
-![Items Page](https://github.com/user-attachments/assets/9c6d9165-4cc5-41aa-bae4-017ddd8b725e)
+![Items Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/Items_page.jpg)
 
 ### Add to Cart
-![Add to Cart](https://github.com/user-attachments/assets/665fdbbb-c3e5-4339-9986-e7edcb94c5f8)
+![Add to Cart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/addToCart.jpg)
 
 ### View Cart
-![View Cart](https://github.com/user-attachments/assets/b292b6db-836a-472d-a7e6-00e669068014)
+![View Cart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/view%20cart.jpg)
 
-### Checkout
-![Checkout](https://github.com/user-attachments/assets/1bf0aa41-57ea-4798-8795-14d2c28d8f96)
+### Orders Page
+![Orders Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/orders.jpg)
 
 ### Order History
-![Order History](https://github.com/user-attachments/assets/900aadec-392c-43d2-9ff6-dde51705f04e)
+![Order History](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/order%20history.jpg)
+
+### Logout
+![Logout](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/logout.jpg)
+
 
 
 🧪 Testing Accounts
