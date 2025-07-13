@@ -72,7 +72,7 @@ This will run the React app on http://localhost:3000
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](https://github.com/user-attachments/assets/770ee89c-8760-41e2-8256-f53bfa972506)
+![Landing Page](./landing_page.jpg)
 
 ### Login Page
 ![Login Page](https://github.com/user-attachments/assets/8b374d0b-fa5e-4881-8573-cddbfea55916)
