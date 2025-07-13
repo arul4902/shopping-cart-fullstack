@@ -47,9 +47,6 @@ shopping-cart-fullstack/
 git clone https://github.com/YOUR_USERNAME/shopping-cart-fullstack.git
 cd shopping-cart-fullstack
 ✅ 2. Backend Setup (Go)
-bash
-Copy
-Edit
 cd shopping-cart-backend
 
 # Initialize Go modules (if not already)
@@ -60,9 +57,6 @@ go run main.go
 Ensure PostgreSQL is running and properly configured in your database.Connect() logic.
 
 ✅ 3. Frontend Setup (React)
-bash
-Copy
-Edit
 cd shopping-cart-frontend
 
 # Install dependencies
