@@ -134,7 +134,7 @@ You can register any new account and test the entire workflow:
 
 ## 👨‍💼 Developed By
 
-**Arul S**
+**Arul S (727822TUIT020)**
 *B.Tech (Information Technology), Class of 2026*
 GitHub: [arul4902](https://github.com/arul4902)
 
