@@ -44,8 +44,9 @@ shopping-cart-fullstack/
 ### ✅ 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shopping-cart-fullstack.git
+git clone https://github.com/arul4902/shopping-cart-fullstack.git
 cd shopping-cart-fullstack
+
 ✅ 2. Backend Setup (Go)
 cd shopping-cart-backend
 
@@ -54,6 +55,7 @@ go mod tidy
 
 # Run backend server
 go run main.go
+
 Ensure PostgreSQL is running and properly configured in your database.Connect() logic.
 
 ✅ 3. Frontend Setup (React)
@@ -64,6 +66,7 @@ npm install
 
 # Start the frontend
 npm start
+
 This will run the React app on http://localhost:3000
 
 📸 Screenshots
@@ -71,17 +74,6 @@ Landing Page	Items Page	Cart Toast
 
 🧪 Testing Accounts
 You can register any new user and use it to log in. No seeded data required.
-
-📄 Evaluation Notes (for reviewers)
-All APIs are implemented per the PDF instructions
-
-Clean separation between frontend and backend
-
-Login + Registration tested via UI and Postman
-
-Cart, Orders, and Checkout features tested end-to-end
-
-Project ready for demonstration
 
 👨‍💻 Developed By
 Arul S
