@@ -9,14 +9,6 @@ This is a full-stack shopping cart web application built with:
 
 ---
 
-## 📁 Folder Structure
-
-shopping-cart-fullstack/
-├── shopping-cart-frontend/ # React App
-└── shopping-cart-backend/ # Go REST API
-
----
-
 ## 🚀 Features
 
 - 🔐 JWT-based user login/signup
@@ -46,7 +38,7 @@ shopping-cart-fullstack/
 git clone https://github.com/arul4902/shopping-cart-fullstack.git
 cd shopping-cart-fullstack
 
-✅ 2. Backend Setup (Go)
+### ✅ 2. Backend Setup (Go)
 cd shopping-cart-backend
 
 # Initialize Go modules (if not already)
@@ -57,7 +49,7 @@ go run main.go
 
 Ensure PostgreSQL is running and properly configured in your database.Connect() logic.
 
-✅ 3. Frontend Setup (React)
+### ✅ 3. Frontend Setup (React)
 cd shopping-cart-frontend
 
 # Install dependencies
