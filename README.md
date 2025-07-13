@@ -72,7 +72,7 @@ This will run the React app on http://localhost:3000
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/landing_page.jpg)
+![Landing Page](landing_page.jpg)
 
 ### Login Page
 ![Login Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/login.jpg)
