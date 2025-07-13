@@ -1,0 +1,69 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0d0f10, #141e1e);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.shop-container {
+  padding: 80px 20px 40px;
+  text-align: center;
+}
+
+.shop-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ff9f1c;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(255, 165, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.2);
+}
+
+.product-card h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.product-card p {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #ffcc70;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #ff9f1c;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #ffa733;
+}
