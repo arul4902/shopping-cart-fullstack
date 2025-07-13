@@ -1,103 +1,141 @@
-# 🛍️ Shopping Cart Full Stack Application
+# 🏍️ Shopping Cart – Full Stack Web Application
 
-This is a full-stack shopping cart web application built with:
+A responsive, user-friendly full-stack shopping cart web application that enables users to register, log in, view items, add products to cart, check out, and view their order history.
 
-- **Frontend**: React.js (with Toastify for UI notifications)
-- **Backend**: Go (Gin framework) + PostgreSQL (via GORM)
-- **Authentication**: JWT-based token authentication
-- **Functionality**: User Registration, Login, Item Listing, Add to Cart, Checkout, Order History
+---
+
+## 🔧 Tech Stack
+
+| Frontend | Backend  | Database   | Authentication |
+| -------- | -------- | ---------- | -------------- |
+| React.js | Go (Gin) | PostgreSQL | JWT Token      |
+| Axios    | GORM ORM |            |                |
+| Toastify |          |            |                |
 
 ---
 
 ## 🚀 Features
 
-- 🔐 JWT-based user login/signup
-- 🛍 View product catalog
-- ➕ Add items to cart
-- ✅ Checkout cart
-- 📦 View past orders
-- 🎨 Responsive UI with Toast notifications
-- 💾 Token stored in `localStorage` for session persistence
+* 🔐 Secure user authentication using JWT
+* 📝 User Registration & Login
+* 💼 Browse item catalog
+* ➕ Add items to cart
+* ✅ Checkout and place orders
+* 📦 View order history
+* 🌈 Elegant and animated UI (Toast notifications & transitions)
+* 💾 Token-based session storage with `localStorage`
+* 📱 Fully responsive design
 
 ---
 
-## 🔧 Technologies Used
+## 📁 Project Structure
 
-| Frontend        | Backend        | Database     |
-|----------------|----------------|--------------|
-| React.js        | Go (Gin)       | PostgreSQL   |
-| Axios           | GORM ORM       |              |
-| React Toastify  | JWT Auth       |              |
+```
+shopping-cart-fullstack/
+│
+├── shopping-cart-frontend/   → React frontend (Login, Register, Items)
+├── shopping-cart-backend/    → Go backend (Gin + GORM + JWT + PostgreSQL)
+└── README.md
+```
 
 ---
 
-## 🛠️ Setup Instructions
+## 🛠️ Setup & Run Instructions
 
-### ✅ 1. Clone Repository
+### ✅ Step 1: Clone Repository
 
+```bash
 git clone https://github.com/arul4902/shopping-cart-fullstack.git
-
 cd shopping-cart-fullstack
+```
 
-### ✅ 2. Backend Setup (Go)
+---
+
+### ✅ Step 2: Backend Setup (Go + PostgreSQL)
+
+```bash
 cd shopping-cart-backend
+go mod tidy         # Download Go dependencies
+go run main.go      # Start backend server
+```
 
-# Initialize Go modules (if not already)
-go mod tidy
+> ⚠️ Make sure PostgreSQL is installed and running on port `5432`.
+> Update `database.Connect()` with your DB credentials if needed.
 
-# Run backend server
-go run main.go
+---
 
-Ensure PostgreSQL is running and properly configured in your database.Connect() logic.
+### ✅ Step 3: Frontend Setup (React)
 
-### ✅ 3. Frontend Setup (React)
+```bash
 cd shopping-cart-frontend
+npm install         # Install dependencies
+npm start           # Start frontend server at http://localhost:3000
+```
 
-# Install dependencies
-npm install
-
-# Start the frontend
-npm start
-
-This will run the React app on http://localhost:3000
+---
 
 ## 📸 Screenshots
 
-### Landing Page
-![Landing Page](landing_page.jpg)
+> 🔎 Visual overview of the UI
 
-### Login Page
-![Login Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/login.jpg)
+### 🏠 Landing Page
 
-### Register Page
-![Register Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/Register.jpg)
+![Landing](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/landing_page.jpg)
 
-### Items Page
-![Items Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/Items_page.jpg)
+### 🔐 Login
 
-### Add to Cart
-![Add to Cart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/addToCart.jpg)
+![Login](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/login.jpg)
 
-### View Cart
-![View Cart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/view%20cart.jpg)
+### 📝 Register
 
-### Orders Page
-![Orders Page](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/orders.jpg)
+![Register](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/register.jpg)
 
-### Order History
-![Order History](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/order%20history.jpg)
+### 💼 Items Catalog
 
-### Logout
-![Logout](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/logout.jpg)
+![Items](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/items.jpg)
 
+### ➕ Add to Cart
 
+![AddToCart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/addToCart.jpg)
 
-### 🧪 Testing Accounts
-You can register any new user and use it to log in. No seeded data required.
+### 🩺 View Cart
 
+![ViewCart](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/view_cart.jpg)
 
+### ✅ Checkout & 📦 Orders
 
-### 👨‍💻 Developed By
-Arul S
+![Orders](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/orders.jpg)
 
+### 🔚 Logout
 
+![Logout](https://raw.githubusercontent.com/arul4902/shopping-cart-fullstack/main/assets/logout.jpg)
+
+---
+
+## 🧪 Testing
+
+You can register any new account and test the entire workflow:
+
+* Registration → Login → Item Listing → Cart → Checkout → Orders
+
+> No pre-seeded data required.
+
+---
+
+## 🧫 Key Concepts Implemented
+
+* Protected routes using JWT middleware
+* RESTful API architecture
+* State management via React hooks
+* Toast feedback for all user interactions
+* Secure backend with token validation
+
+---
+
+## 👨‍💼 Developed By
+
+**Arul S**
+*B.Tech (Information Technology), Class of 2026*
+GitHub: [arul4902](https://github.com/arul4902)
+
+---
